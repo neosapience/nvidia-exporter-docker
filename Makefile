@@ -1,7 +1,6 @@
 name := neosapience/nvidia-exporter
 
-build: build-91-cent7 build-90-cent7
-#build-91 build-90
+build: build-91 build-90 build-91-cent7 build-90-cent7 
 
 build-91:
 	@docker build \
